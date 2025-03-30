@@ -1,0 +1,109 @@
+.head{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #354f52;
+  border: 1px solid rgba(116, 105, 105, 0.546);
+  box-shadow: 5px 5px 5px rgba(167, 152, 152, 0.477);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 100px;
+  margin-bottom: 1px;
+  place-items: center;
+}
+body{
+  background-color: #cad2c5;
+}
+h1{
+  font-size: 4rem;
+}
+button{
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+
+}
+.task-list
+{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  background-color: #354f52;
+  border: 1px solid rgba(116, 105, 105, 0.546);
+  box-shadow: 5px 5px 5px rgba(167, 152, 152, 0.477);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 100px;
+  margin-top: 20px;
+  place-items: center;
+}
+.text-list .text-finished{
+  text-decoration: line-through;
+}
+.add-task
+{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #354f52;
+  border: 1px solid rgba(116, 105, 105, 0.546);
+  box-shadow: 5px 5px 5px rgba(167, 152, 152, 0.477);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  place-items: center;
+}
+.delete-button{
+  align-items: flex-start;
+}
+.add-task .add-button
+{
+  background-color: rgb(13, 160, 229);
+  margin: 10px 20px;
+}
+.add-task .add-button:hover
+{
+  background-color: rgb(103, 174, 207);
+}
+
+.task-list .delete-button
+{
+  background-color: rgb(136, 4, 4);
+  margin: 10px 20px;
+}
+.task-list .delete-button:hover
+{
+  background-color: rgb(219, 62, 62);
+}
+
+
+
+input[type="text"]{
+  font-size: 1.3rem;
+  padding: 10px;
+  border: 2px solid rgba(82, 80, 80, 0.503);
+  border-radius: 10px;
+  color: grey;
+}
+li{
+  font-size: 1.5rem;
+  background-color: #84a98c;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 2px solid rgba(82, 80, 80, 0.503);
+  border-radius: 10px;
+  align-items: center;
+  width: 1000px;
+  display: flex;
+}
+.task-list .text{
+  flex: 1;
+}
+
+
+
